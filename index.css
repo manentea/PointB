@@ -1,13 +1,23 @@
 #map {
   height: 70%;
-  width: 70%;
-  margin: auto;
+  width: 40%;
+  left: 3em;
   z-index: 999;
+  border: 3px solid #0F0358;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 8px 0px black;
+  -moz-box-shadow: 0px 0px 8px 0px black;
+  box-shadow: 0px 0px 15px 0px black;
 }
 
 .search {
+  text-align: center;
+  top: 10em;
+  left: 37.5em;
+  position: absolute;
   width: 35%;
   margin: auto;
+  z-index: 20000;
 }
 
 .results {
@@ -17,18 +27,25 @@
   height: 100%;
   top: 0;
   position: absolute;
-  /*margin-top: -15em;*/
+  margin-top: 3em;
   overflow: scroll;
   margin-right: -.3em;
 }
 
 .result {
-  border: 1px solid black;
+  background-color: rgba(100,100,100,.3);
+  border: 3px solid #0F0358;
   border-radius: 5px;
+  margin-bottom: .5em;
+  -webkit-box-shadow: 0px 0px 8px 0px black;
+  -moz-box-shadow: 0px 0px 8px 0px black;
+  box-shadow: 0px 0px 15px 0px black;
 }
 
 .pick {
-  background-color: rgb(100,200,150);
+  margin-top: 7em;
+  color: white;
+  background-color: #0F0358;
   border-radius: 10px;
   font-size: 2em;
   width: 12em;
@@ -39,6 +56,7 @@
 }
 
 .final {
+  color: white;
   top: 15em;
   position: absolute;
   text-align: center;
@@ -46,7 +64,7 @@
   height: 30%;
   left: 35%;
   z-index: 10000;
-  background-color: rgba(50,50,50,.4);
+  background-color: rgba(50,50,50,.7);
   border-radius: 10px;
 }
 
@@ -60,6 +78,7 @@
 }
 
 .refresh {
+  color: white;
   font-size: 2em;
   height: 2em;
   background-color: rgb(50,50,50);
